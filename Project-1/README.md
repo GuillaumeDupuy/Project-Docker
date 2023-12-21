@@ -2,6 +2,8 @@
 
 **Objectif :** Mettre en place une stack applicative composée d'une application frontend WordPress et d'une base de données MariaDB, utilisant Docker et Docker Compose.
 
+Voici le lien vers les [images](https://hub.docker.com/repositories/guillaumedupuy) docker
+
 **Instructions :**
 
 1. **Application WordPress :**
