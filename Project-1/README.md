@@ -20,8 +20,6 @@ Voici le lien vers les [images](https://hub.docker.com/repositories/guillaumedup
 
 ## **Configuration Docker compose**
 
-----
-
 Le fichier **docker-compose.yml** définit deux services principaux, **mariadb** (base de données MariaDB) et **wordpress** (application WordPress), avec des configurations spécifiques pour chaque service.
 
 ### **Mariadb Service**
@@ -38,8 +36,6 @@ Deux réseaux distincts sont créés, **frontend_network** et **backend_network*
 
 ## **Personnalisation des Images Docker**
 
-----
-
 ### **MariaDB (mysql/Dockerfile et mysql/my.cnf)**
 
 L'image MariaDB est personnalisée en copiant le fichier my.cnf dans le conteneur, ce qui permet de configurer des paramètres spécifiques du serveur MariaDB, tels que le jeu de caractères et la mémoire tampon InnoDB.
@@ -50,12 +46,10 @@ L'image WordPress est étendue pour installer le module PHP GD, répondant aux b
 
 ## **Utilisation des Variables d'Environnement**
 
-----
 
 Les fichiers **.env** sont utilisés pour stocker des variables d'environnement sensibles, garantissant une séparation claire des configurations de l'infrastructure.
 
 ## **Exposition des Ports**
 
-----
 
 Les ports **3306:3306** (MariaDB) et **8080:80** (WordPress) sont exposés pour permettre l'accès aux services depuis l'extérieur.
