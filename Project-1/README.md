@@ -4,6 +4,13 @@
 
 Voici le lien vers les [images](https://hub.docker.com/repositories/guillaumedupuy) docker
 
+## ** Comment lancer ? ** 
+
+Se mettre dans le dossier et lancer la commande suivante : 
+
+```docker composer up```
+
+
 ## **Structure du projet**
 
 ```
